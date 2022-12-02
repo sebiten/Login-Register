@@ -93,9 +93,8 @@ border-radius: 20px 0px 0px 20px;
 position: absolute;
 width: 36px;
 height: 36px;
-left: 10px;
-top: 624px;
-
+top: 626px;
+right: 67rem;
 padding: 5px 6px 5px 6px; 
 
 
@@ -107,8 +106,8 @@ border-radius: 20px 0px 0px 20px;
 position: absolute;
 width: 36px;
 height: 36px;
-left: 10px;
-top: 711px;
+top: 715px;
+right: 67rem;
 padding: 5px 6px 5px 6px; 
 
 
