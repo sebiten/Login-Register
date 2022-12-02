@@ -94,8 +94,7 @@ position: absolute;
 width: 36px;
 height: 36px;
 left: 10px;
-top: 624px;
-
+top: 609px;
 padding: 5px 6px 5px 6px; 
 
 
@@ -108,7 +107,7 @@ position: absolute;
 width: 36px;
 height: 36px;
 left: 10px;
-top: 711px;
+top: 696px;
 padding: 5px 6px 5px 6px; 
 
 

@@ -5,12 +5,17 @@ import {
   Input,
   Button,
   Paragraph,
-  Register,
+  RegisterButton,
   Form,
   ErrorStyle,
-} from "./stylesRegister";
+  Facebook,
+  Google,
+  SocialContainer
+} from "./stylesLogin";
 import { useForm } from "react-hook-form";
-import { FaFacebook, FaGoogle, FaTwitter } from "react-icons/fa";
+import GoogleIcon from '../../assets/Google.svg'
+import FacebookIcon from '../../assets/Facebook.svg'
+
 
 export function Login() {
   const {
@@ -60,15 +65,19 @@ export function Login() {
           })}
         />
         {errors.password && <ErrorStyle>{errors.password.message}</ErrorStyle>}
-        <Button>Inicie sesion</Button>
+        <Button>Ingresar</Button>
       </Form>
       <Paragraph>
-        <Register href="">¿No tienes cuenta? Registrate</Register>
+        <RegisterButton href="">¿No tienes cuenta? Registrate</RegisterButton>
         <br />O ingresa con una red social
       </Paragraph>
-      
-      <Button><FaFacebook/> Ingresar con Facebook</Button>
-      <Button><FaGoogle/> Ingresar con Google</Button>
+      <SocialContainer>
+      <Button>
+        <Facebook src={FacebookIcon} alt="facebook" /> Ingresar con Facebook
+        </Button>
+      <Button><Google src={GoogleIcon} alt="google" />Ingresar con Google</Button>
+      </SocialContainer>
+  
     </MainContainer>
   );
 }
